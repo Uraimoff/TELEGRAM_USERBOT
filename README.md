@@ -7,11 +7,7 @@ Bu userbot Telegram profilingizdan avtomatik javoblar yuborish va OpenAI bilan i
 ### 1. Pythonni o‘rnating
 Loyihani ishlatish uchun Python 3.8 yoki undan yuqori versiya talab qilinadi. Python’ni quyidagi sayt orqali yuklab olishingiz mumkin: [Python rasmiy sayti](https://www.python.org).
 
-### 2. Loyihaga kerakli kutubxonalarni o‘rnating
-```bash
-pip install -r requirements.txt
-```
-### 3. Virtual muhit yaratish
+### 2. Virtual muhit yaratish
 Avvalo virtual muhit yarating va uni faollashtiring:
 
 #### Virtual muhit yaratish
@@ -28,8 +24,12 @@ test_env\Scripts\activate
 ```
 #### TELEGRAM_USERBOT
 
+### 3. Loyihaga kerakli kutubxonalarni o‘rnating
+```bash
+pip install -r requirements.txt
+```
 
-### 3. Botni ishga tushirish
+### 4. Botni ishga tushirish
 ```bash
 python main.py
 ```
